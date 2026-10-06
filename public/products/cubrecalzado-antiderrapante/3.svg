@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Cubrecalzado de polipropileno con suela antiderrapante, imagen ilustrativa">
+<defs><radialGradient id="g" cx="50%" cy="45%" r="65%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF2F7"/></radialGradient></defs>
+<rect width="800" height="800" fill="url(#g)"/>
+<ellipse cx="400" cy="660" rx="230" ry="18" fill="#0F1B2D" opacity="0.06"/>
+<g stroke="#004DA2" stroke-width="10" stroke-linejoin="round"><path fill="#EEF4FB" d="M200 330 L400 260 L600 330 L400 400 Z"/><path fill="#D9E6F6" d="M200 330 L400 400 L400 640 L200 570 Z"/><path fill="#C6D9F0" d="M600 330 L400 400 L400 640 L600 570 Z"/></g><g transform="translate(300 470) scale(0.22) translate(-400 -420)"><g stroke="#004DA2" stroke-width="10" stroke-linejoin="round"><path fill="#D9E6F6" d="M300 180 L460 180 L460 500 L600 540 Q630 560 620 610 L300 610 Z"/><path fill="none" d="M300 600 L620 600 M330 220 L330 520"/></g></g><text x="500" y="500" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#004DA2">ESC-DH-0304</text>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="58" font-size="20" font-weight="700" fill="#64748B" letter-spacing="2">PRESENTACIÓN</text>
+<text x="760" y="58" font-size="18" fill="#94A3B8" text-anchor="end">Imagen ilustrativa · Foto pendiente</text>
+<text x="400" y="725" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Cubrecalzado de polipropileno con</text>
+<text x="400" y="755" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">suela antiderrapante</text>
+</g>
+</svg>

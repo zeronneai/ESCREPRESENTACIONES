@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Aplicador de algodón con mango de madera 6 in, imagen ilustrativa">
+<defs><radialGradient id="g" cx="50%" cy="45%" r="65%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF2F7"/></radialGradient></defs>
+<rect width="800" height="800" fill="url(#g)"/>
+<ellipse cx="400" cy="660" rx="230" ry="18" fill="#0F1B2D" opacity="0.06"/>
+<g fill="none" stroke="#004DA2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M260 620 L470 260"/><path d="M340 640 L520 300"/><path d="M420 650 L570 340"/></g><g fill="#D9E6F6" stroke="#004DA2" stroke-width="10"><rect x="440" y="190" width="60" height="100" rx="18" transform="rotate(30 470 240)"/><rect x="495" y="230" width="56" height="90" rx="28" transform="rotate(28 523 275)"/><rect x="548" y="275" width="50" height="80" rx="10" transform="rotate(26 573 315)"/></g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="58" font-size="20" font-weight="700" fill="#64748B" letter-spacing="2">VISTA PRINCIPAL</text>
+<text x="760" y="58" font-size="18" fill="#94A3B8" text-anchor="end">Imagen ilustrativa · Foto pendiente</text>
+<text x="400" y="725" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Aplicador de algodón con mango de</text>
+<text x="400" y="755" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">madera 6 in</text>
+</g>
+</svg>

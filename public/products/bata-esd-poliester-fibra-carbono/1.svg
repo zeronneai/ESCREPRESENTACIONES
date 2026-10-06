@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Bata antiestática de poliéster con fibra de carbono, imagen ilustrativa">
+<defs><radialGradient id="g" cx="50%" cy="45%" r="65%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF2F7"/></radialGradient></defs>
+<rect width="800" height="800" fill="url(#g)"/>
+<ellipse cx="400" cy="660" rx="230" ry="18" fill="#0F1B2D" opacity="0.06"/>
+<path fill="#D9E6F6" d="M330 190 L400 230 L470 190 L560 230 L620 380 L570 400 L545 330 L545 610 L255 610 L255 330 L230 400 L180 380 L240 230 Z"/><path fill="none" stroke="#004DA2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M330 190 L400 230 L470 190 L560 230 L620 380 L570 400 L545 330 L545 610 L255 610 L255 330 L230 400 L180 380 L240 230 Z M400 230 L400 610"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="58" font-size="20" font-weight="700" fill="#64748B" letter-spacing="2">VISTA PRINCIPAL</text>
+<text x="760" y="58" font-size="18" fill="#94A3B8" text-anchor="end">Imagen ilustrativa · Foto pendiente</text>
+<text x="400" y="725" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Bata antiestática de poliéster con</text>
+<text x="400" y="755" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">fibra de carbono</text>
+</g>
+</svg>

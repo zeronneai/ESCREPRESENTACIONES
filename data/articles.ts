@@ -1,0 +1,91 @@
+import type { Article } from "./types";
+
+// Artículos de ejemplo. Revisar con el equipo técnico antes de publicar.
+export const articles: Article[] = [
+  {
+    slug: "como-elegir-wipes-cuarto-limpio-clase-iso",
+    title: "Cómo elegir wipes para cuarto limpio según su clase ISO",
+    excerpt: "Material, tipo de orilla y nivel de limpieza: los tres criterios para no pagar de más ni quedarse corto en su cuarto limpio.",
+    category: "Cuarto Limpio",
+    readingMinutes: 6,
+    date: "2026-09-15",
+    body: [
+      { type: "p", text: "El wipe es uno de los consumibles de mayor uso dentro de un cuarto limpio y también uno de los que más influye en el conteo de partículas. Elegir uno de menor desempeño que el requerido puede comprometer la clasificación del área; elegir uno de mayor desempeño en todas las aplicaciones eleva el costo sin necesidad." },
+      { type: "h2", text: "1. Identifique la clase ISO del área" },
+      { type: "p", text: "La norma ISO 14644-1 clasifica los cuartos limpios según la concentración máxima de partículas por metro cúbico. Como regla práctica:" },
+      { type: "ul", items: [
+        "ISO 3 a ISO 5: poliéster de filamento continuo tejido, con orillas selladas por láser o ultrasonido.",
+        "ISO 6: poliéster tejido con orilla de corte, o mezclas de poliéster y nylon.",
+        "ISO 7 y ISO 8: mezclas de celulosa y poliéster no tejido, de mayor absorción y menor costo.",
+      ] },
+      { type: "h2", text: "2. Revise el tipo de orilla" },
+      { type: "p", text: "La orilla es la principal fuente de fibras sueltas. Una orilla sellada por láser funde el poliéster y evita que se desprendan fibras al frotar. En áreas ISO 7 y ISO 8, una orilla de corte suele ser suficiente." },
+      { type: "h2", text: "3. Considere absorción y compatibilidad química" },
+      { type: "p", text: "Si el wipe se usa para retirar derrames, la absorción en ml/m² es determinante. Si se usa con solventes como IPA o acetona, verifique en la ficha técnica que el material no se degrade ni libere residuos no volátiles." },
+      { type: "h2", text: "4. Seco o prehumedecido" },
+      { type: "p", text: "Los wipes prehumedecidos con 70% IPA garantizan una saturación constante y evitan el desperdicio de solvente, además de reducir el número de envases abiertos dentro del área. Los secos dan flexibilidad para usar distintos solventes." },
+      { type: "h2", text: "Recomendación" },
+      { type: "p", text: "Un esquema común es usar poliéster sellado por láser en superficies críticas y equipo de proceso, y celulosa con poliéster en limpieza general, mesas y pisos. Un asesor de El Sauz puede ayudarle a definir el esquema por área y enviarle muestras." },
+    ],
+    relatedProducts: ["wipe-poliester-sellado-laser", "wipe-celulosa-poliester", "wipe-prehumedecido-ipa", "despachador-solventes-esd"],
+  },
+  {
+    slug: "guia-control-esd-lineas-de-ensamble",
+    title: "Guía de control ESD en líneas de ensamble",
+    excerpt: "Los elementos mínimos de un área de protección ESD y cómo verificar que funcionen todos los días.",
+    category: "ESD",
+    readingMinutes: 7,
+    date: "2026-08-28",
+    body: [
+      { type: "p", text: "Una descarga electrostática de apenas 100 volts, que la persona no percibe, puede dañar componentes sensibles. El daño muchas veces no es inmediato: el componente pasa la prueba final y falla en campo. Por eso el control ESD se basa en prevenir, no en detectar." },
+      { type: "h2", text: "Los elementos de un área de protección ESD (EPA)" },
+      { type: "ul", items: [
+        "Aterrizaje del operador: pulsera con cordón y resistor de 1 MΩ en estaciones sentadas, o calzado y piso disipativo en estaciones de pie.",
+        "Superficies de trabajo disipativas conectadas a un punto común de tierra.",
+        "Indumentaria: batas ESD que cubran la ropa del operador y estén conectadas a tierra.",
+        "Empaque: bolsas de blindaje y charolas conductivas para mover componentes fuera del EPA.",
+        "Señalización: delimitación del EPA y etiquetas en contenedores de componentes sensibles.",
+      ] },
+      { type: "h2", text: "Verificación diaria" },
+      { type: "p", text: "Los programas basados en ANSI/ESD S20.20 piden verificar la pulsera del operador al inicio del turno con un probador, y medir periódicamente las superficies, el piso y la indumentaria. Lleve un registro por estación: es lo primero que revisa un auditor." },
+      { type: "h2", text: "Errores comunes" },
+      { type: "ul", items: [
+        "Usar pulsera sin verificarla: el cordón se daña con el uso y deja de aterrizar sin que nadie lo note.",
+        "Batas abiertas o mangas recogidas: la ropa del operador queda expuesta.",
+        "Bolsas rosas antiestáticas usadas como blindaje: evitan generar carga, pero no blindan contra un campo externo.",
+      ] },
+      { type: "h2", text: "Siguiente paso" },
+      { type: "p", text: "Si está armando o estandarizando su programa ESD, un especialista de El Sauz puede proponerle un paquete por estación de trabajo con códigos únicos para todas sus plantas." },
+    ],
+    relatedProducts: ["pulsera-antiestatica-ajustable", "bata-esd-poliester-fibra-carbono", "bolsa-blindaje-esd-metalizada", "charola-conductiva-esd", "dedal-antiestatico-latex"],
+  },
+  {
+    slug: "diferencias-guantes-nitrilo-latex-vinil-manufactura",
+    title: "Diferencias entre guantes de nitrilo, látex y vinil para manufactura",
+    excerpt: "Resistencia química, sensibilidad táctil, alergias y costo: cuándo conviene cada material en planta.",
+    category: "Guantes",
+    readingMinutes: 5,
+    date: "2026-08-10",
+    body: [
+      { type: "p", text: "El guante desechable parece un artículo simple, pero el material correcto reduce rechazos de producto, irritaciones en la piel del operador y el costo por turno. Estas son las diferencias clave." },
+      { type: "h2", text: "Nitrilo" },
+      { type: "p", text: "Caucho sintético con buena resistencia a aceites, grasas y muchos solventes. No contiene proteínas de látex, por lo que elimina el riesgo de alergias. Es la opción más versátil en manufactura y laboratorio." },
+      { type: "h2", text: "Látex" },
+      { type: "p", text: "Caucho natural con la mejor elasticidad y sensibilidad táctil. En versión clorada y lavada en agua desionizada se usa en cuarto limpio. Su principal limitante es el riesgo de alergia en algunos operadores." },
+      { type: "h2", text: "Vinil" },
+      { type: "p", text: "PVC de menor costo, con ajuste más holgado y menor resistencia a la perforación. Adecuado para tareas ligeras y de corta duración, como empaque o inspección visual." },
+      { type: "h2", text: "Comparativo rápido" },
+      { type: "ul", items: [
+        "Resistencia química: nitrilo alta, látex media, vinil baja.",
+        "Sensibilidad táctil: látex alta, nitrilo media a alta, vinil media.",
+        "Riesgo de alergia: solo el látex.",
+        "Costo: vinil menor, nitrilo y látex similares.",
+      ] },
+      { type: "h2", text: "¿Y en áreas ESD o cuarto limpio?" },
+      { type: "p", text: "Además del material, revise la limpieza iónica, el conteo de partículas y, en áreas ESD, la resistencia superficial. Para ensamble fino, los dedales disipativos son una alternativa que reduce el consumo." },
+    ],
+    relatedProducts: ["guante-nitrilo-sin-polvo", "guante-latex-cuarto-limpio", "guante-vinil-uso-general", "dedal-antiestatico-latex"],
+  },
+];
+
+export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

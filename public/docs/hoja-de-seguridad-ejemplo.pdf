@@ -1,0 +1,49 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1092 >>
+stream
+BT /F2 20 Tf 56 770 Td (Hoja de datos de seguridad \(EJEMPLO\)) Tj ET
+0 0.302 0.635 RG 2 w 56 755 m 556 755 l S
+BT /F1 11 Tf 56 728 Td (Documento de ejemplo para el prototipo del sitio web.) Tj ET
+BT /F1 11 Tf 56 710 Td (PENDIENTE: reemplazar por la HDS real del fabricante \(formato NOM-018-STPS / SGA\).) Tj ET
+BT /F1 11 Tf 56 692 Td () Tj ET
+BT /F1 11 Tf 56 674 Td (Secciones de una hoja de datos de seguridad:) Tj ET
+BT /F1 11 Tf 56 656 Td (  1. Identificación   2. Identificación de peligros   3. Composición) Tj ET
+BT /F1 11 Tf 56 638 Td (  4. Primeros auxilios   5. Combate de incendios   6. Derrames) Tj ET
+BT /F1 11 Tf 56 620 Td (  7. Manejo y almacenamiento   8. Controles de exposición / EPP) Tj ET
+BT /F1 11 Tf 56 602 Td (  9. Propiedades físicas y químicas   10. Estabilidad y reactividad) Tj ET
+BT /F1 11 Tf 56 584 Td (  11 a 16. Información toxicológica, ecológica, disposición,) Tj ET
+BT /F1 11 Tf 56 566 Td (  transporte, regulatoria y otra información) Tj ET
+BT /F1 9 Tf 56 60 Td (ESC Representaciones, S. de R.L. MI. | El Sauz | 800 890 3276 | informacion@elsauz.com) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000001401 00000 n 
+0000001498 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1600
+%%EOF

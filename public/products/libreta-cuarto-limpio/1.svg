@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Libreta para cuarto limpio de papel sintético, imagen ilustrativa">
+<defs><radialGradient id="g" cx="50%" cy="45%" r="65%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF2F7"/></radialGradient></defs>
+<rect width="800" height="800" fill="url(#g)"/>
+<ellipse cx="400" cy="660" rx="230" ry="18" fill="#0F1B2D" opacity="0.06"/>
+<g stroke="#004DA2" stroke-width="10" stroke-linejoin="round"><rect x="260" y="200" width="300" height="400" rx="10" fill="#D9E6F6"/><path fill="none" d="M320 300 L510 300 M320 350 L510 350 M320 400 L510 400 M320 450 L470 450"/><path fill="none" d="M240 240 L280 240 M240 300 L280 300 M240 360 L280 360 M240 420 L280 420 M240 480 L280 480 M240 540 L280 540"/></g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="58" font-size="20" font-weight="700" fill="#64748B" letter-spacing="2">VISTA PRINCIPAL</text>
+<text x="760" y="58" font-size="18" fill="#94A3B8" text-anchor="end">Imagen ilustrativa · Foto pendiente</text>
+<text x="400" y="725" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Libreta para cuarto limpio de</text>
+<text x="400" y="755" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">papel sintético</text>
+</g>
+</svg>

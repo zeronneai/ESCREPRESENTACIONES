@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Guante de nitrilo sin polvo 4 mil, imagen ilustrativa">
+<defs><radialGradient id="g" cx="50%" cy="45%" r="65%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF2F7"/></radialGradient></defs>
+<rect width="800" height="800" fill="url(#g)"/>
+<ellipse cx="400" cy="660" rx="230" ry="18" fill="#0F1B2D" opacity="0.06"/>
+<g stroke="#004DA2" stroke-width="10" stroke-linejoin="round"><path fill="#EEF4FB" d="M200 330 L400 260 L600 330 L400 400 Z"/><path fill="#D9E6F6" d="M200 330 L400 400 L400 640 L200 570 Z"/><path fill="#C6D9F0" d="M600 330 L400 400 L400 640 L600 570 Z"/></g><g transform="translate(300 470) scale(0.22) translate(-400 -420)"><path fill="#D9E6F6" d="M300 620 L300 420 Q260 380 250 330 Q245 300 275 300 Q300 305 320 360 L320 220 Q320 195 345 195 Q370 195 370 220 L370 330 L375 190 Q375 165 400 165 Q425 165 425 190 L425 330 L430 210 Q430 185 455 185 Q480 185 480 210 L480 340 L485 250 Q485 228 508 228 Q530 228 530 252 L530 460 Q530 540 490 580 L490 620 Z"/><path fill="none" stroke="#004DA2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="M300 620 L300 420 Q260 380 250 330 Q245 300 275 300 Q300 305 320 360 L320 220 Q320 195 345 195 Q370 195 370 220 L370 330 L375 190 Q375 165 400 165 Q425 165 425 190 L425 330 L430 210 Q430 185 455 185 Q480 185 480 210 L480 340 L485 250 Q485 228 508 228 Q530 228 530 252 L530 460 Q530 540 490 580 L490 620 Z M300 580 L490 580"/></g><text x="500" y="500" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#004DA2">ESC-GD-0601</text>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="58" font-size="20" font-weight="700" fill="#64748B" letter-spacing="2">PRESENTACIÓN</text>
+<text x="760" y="58" font-size="18" fill="#94A3B8" text-anchor="end">Imagen ilustrativa · Foto pendiente</text>
+<text x="400" y="725" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Guante de nitrilo sin polvo 4 mil</text>
+</g>
+</svg>

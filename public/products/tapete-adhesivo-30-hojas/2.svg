@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Tapete adhesivo de 30 hojas desprendibles, imagen ilustrativa">
+<defs><radialGradient id="g" cx="50%" cy="45%" r="65%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF2F7"/></radialGradient></defs>
+<rect width="800" height="800" fill="url(#g)"/>
+<ellipse cx="400" cy="660" rx="230" ry="18" fill="#0F1B2D" opacity="0.06"/>
+<g transform="translate(400 400) scale(1.45) translate(-400 -420)"><g stroke="#004DA2" stroke-width="10" stroke-linejoin="round"><path fill="#EEF4FB" d="M180 520 L400 610 L620 520 L400 430 Z" transform="translate(0 30)"/><path fill="#D9E6F6" d="M180 520 L400 610 L620 520 L400 430 Z"/><path fill="#fff" d="M560 495 L620 520 L560 545 Z"/></g><text x="400" y="530" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#004DA2">30</text></g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="58" font-size="20" font-weight="700" fill="#64748B" letter-spacing="2">DETALLE</text>
+<text x="760" y="58" font-size="18" fill="#94A3B8" text-anchor="end">Imagen ilustrativa · Foto pendiente</text>
+<text x="400" y="725" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">Tapete adhesivo de 30 hojas</text>
+<text x="400" y="755" font-size="24" font-weight="600" fill="#334155" text-anchor="middle">desprendibles</text>
+</g>
+</svg>
