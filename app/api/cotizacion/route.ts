@@ -3,6 +3,7 @@ import { quotePayloadSchema, FREQUENCY_LABEL, type QuotePayload } from "@/lib/qu
 import { nextFolio } from "@/lib/folio";
 import { suggestAdvisor } from "@/data/advisors";
 import { unitLabel } from "@/lib/whatsapp";
+import { buildPortalLead, sendLeadToPortal } from "@/lib/portal-lead";
 
 export const runtime = "nodejs";
 
@@ -77,6 +78,11 @@ export async function POST(req: Request) {
 
   console.log("[cotizacion] Nueva solicitud", JSON.stringify({ folio, advisor: advisor?.id, ...data, attachment: attachment?.filename }, null, 2));
 
+  // Registro en Leads del portal interno (opcional; corre en paralelo con el correo y nunca bloquea).
+  const leadSent = sendLeadToPortal(
+    buildPortalLead(folio, data, { advisor: advisor ? advisor.name.replace(/\s*\(PENDIENTE\)/, "") : null, attachment: attachment?.filename ?? null }),
+  );
+
   // Envío por correo con Resend (opcional). Ver README > "Configurar Resend".
   if (process.env.RESEND_API_KEY) {
     try {
@@ -104,5 +110,6 @@ export async function POST(req: Request) {
     }
   }
 
+  await leadSent;
   return NextResponse.json({ folio, advisorId: advisor?.id ?? null });
 }
