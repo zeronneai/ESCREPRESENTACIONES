@@ -141,3 +141,16 @@ Recomendado en producción: activar el firewall de Vercel con límite de peticio
 - HTML semántico, navegación por teclado, foco visible, textos alternativos y contraste AA.
 - Metadatos por página, `sitemap.xml`, `robots.txt`, datos estructurados `Organization`, `Product` (sin precio) y `Article`.
 - Páginas estáticas, fuentes autoalojadas con `next/font`, imágenes optimizadas y carga diferida del mapa.
+
+
+## Leads en el portal interno
+Cada solicitud de `/cotizacion` también se registra como **lead** en el portal de cotizaciones (`esccotizaciones.vercel.app` > Leads), con origen "Sitio web": empresa, contacto, puesto, teléfono, correo, ciudad, productos con cantidades, frecuencia, comentarios y asesor sugerido por zona. Entra sin vendedor asignado, todos los vendedores reciben un aviso y el primero que lo toma se queda con él.
+
+Configuración en Vercel (proyecto del sitio > Settings > Environment Variables):
+
+| Variable | Valor |
+| --- | --- |
+| `PORTAL_LEADS_URL` | `https://esccotizaciones.vercel.app/api/leads/entrada` |
+| `PORTAL_LEADS_SECRET` | La misma clave que `LEADS_WEBHOOK_SECRET` del portal (secreta, nunca `NEXT_PUBLIC_`) |
+
+El envío ocurre en el servidor (`lib/portal-lead.ts`), en paralelo con el correo. Si las variables no existen o el portal no responde, el cliente recibe su folio igual y el error queda en los logs de Vercel.
